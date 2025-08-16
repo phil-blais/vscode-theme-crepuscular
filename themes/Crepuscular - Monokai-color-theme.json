@@ -1,6 +1,6 @@
 {
     "type": "dark",
-    "name": "Crepuscular - Monokai",
+    "name": "Crepuscular (Monokai)",
     "include": "./tokens/monokai-color-theme.json",
     "colors": {
         "activityBar.background": "#FFFFFF08",
@@ -14,8 +14,8 @@
         "editorBracketMatch.background": "#FFFFFF1A",
         "editorBracketMatch.border": "#FFFFFF2A",
         "editorGroup.dropBackground": "#007ACC66",
-        "editorIndentGuide.activeBackground": "#FFFFFF2A",
-        "editorIndentGuide.background": "#FFFFFF0A",
+        "editorIndentGuide.activeBackground1": "#FFFFFF2A",
+        "editorIndentGuide.background1": "#FFFFFF0A",
         "focusBorder": "#FFFFFF1A",
         "input.background": "#00000033",
         "input.placeholderForeground": "#FFFFFF2A",

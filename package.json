@@ -1,27 +1,26 @@
 {
-    "name": "vscode-crepuscular-theme",
-    "displayName": "Crepuscular Theme",
-    "description": "A dark and subtle color theme for VS Code.",
-    "version": "0.0.1",
-    "publisher": "phil-blais",
-    "engines": {
-        "vscode": "^1.68.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "keywords": [
-        "theme",
-        "dark",
-        "monokai"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Crepuscular - Monokai",
-                "uiTheme": "vs-dark",
-                "path": "./themes/crepuscular-monokai-color-theme.json"
-            }
-        ]
-    }
+  "name": "vscode-crepuscular-monokai",
+  "displayName": "Crepuscular (Monokai)",
+  "description": "A dark and subtle color theme for VS Code.",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.103.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "theme",
+    "dark",
+    "monokai"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Crepuscular (Monokai)",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Crepuscular - Monokai-color-theme.json"
+      }
+    ]
+  }
 }
