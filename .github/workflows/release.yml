@@ -30,7 +30,7 @@ jobs:
         run: npm install -g @vscode/vsce
 
       - name: Package extension
-        run: vsce package
+        run: vsce package -o ${{ steps.package.outputs.name }}-${{ steps.package.outputs.version }}.vsix
 
       - name: Create Release
         id: create_release
@@ -49,6 +49,6 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           upload_url: ${{ steps.create_release.outputs.upload_url }}
-          asset_path: ./*.vsix
+          asset_path: ./${{ steps.package.outputs.name }}-${{ steps.package.outputs.version }}.vsix
           asset_name: ${{ steps.package.outputs.name }}-${{ steps.package.outputs.version }}.vsix
           asset_content_type: application/vsix
